@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icons/image.png" type="image/png">
+    <title>QIZ • Home</title>
+    <script src="https://kit.fontawesome.com/9dad0e8fd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="logo">
+        <img src="assets/icons/logo.png"/>
+    </header>
+    <main>
+        <section class="container">
+            <div class="imagem"><img src="assets/icons/image.png" alt="logo site"></div>
+            
+            
+            <header class="content">
+                <div class="title">
+                    <h1>comece o quiz agora.</h1>
+                    <h1>é <span>grátis!</span></h1>
+                </div>                
+                <form>
+                    <h4>Nome <span>*</span></h3>
+                    <input type="text" placeholder="informe como iremos lhe chamar">
+                    <h4 class="dumb">Sexo <span>*</span></h3>
+                        <div class="genere">
+                            <div>
+                                <input type="radio" id="masculino" name="genero" value="masculino">
+                                <label for="masculino">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="feminino" name="genero" value="feminino">
+                                <label for="feminino">Feminino</label>
+                            </div>
+                        </div>
+                    <div class="buttons">
+                        <button type="button" class="start" id="start">começar quiz</button>
+                        <hr/>
+                        <a href="https://github.com/euikki/Quiz" target="_blank" class="view">
+                            <i class="fa-brands fa-github"></i>
+                            ver repositório
+                        </a>                        
+                    </div>
+                </form>
+            </header>
+        </section>
+    </main> 
+    <script src="./script.js"></script>
+    <script src="./source/js/app.js"></script>
+</body>
+</html>
