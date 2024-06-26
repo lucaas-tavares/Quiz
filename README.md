@@ -1,6 +1,6 @@
 
 
-# QIZ • Qual o seu?
+# QIZ • Qual o seu modo de pensar?
 
 ![Logo](assets/icons/logo.png)
 
