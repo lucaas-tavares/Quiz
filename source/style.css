@@ -115,3 +115,30 @@ button:hover {
     background-color: var(--button-check);
     border: 3px solid var(--purple-dark);
 }
+
+.result-message {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-align: center;
+}
+.result-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #848496;
+    text-align: center;
+}
+.return-button {
+    display: block;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: var(--purple-dark);
+    color: white;
+    border: none;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.return-button:hover {
+    background-color: var(--button-check);
+}

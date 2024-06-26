@@ -1,4 +1,6 @@
-console.log("Script carregado");
+const buttonStart = document.querySelector(".start");
+
+buttonStart.addEventListener('click', start);
 
 document.getElementById("start").addEventListener("click", function() {
     const nome = document.querySelector('input[type="text"]').value.trim();
@@ -15,6 +17,8 @@ document.getElementById("start").addEventListener("click", function() {
         return;
     }
 
-    console.log("Botão clicado");
+    localStorage.setItem("name", nome);
+    localStorage.setItem("gender", generoMasculino ? "masculino" : "feminino");
+
     window.location.href = "source/index.html";
 });
